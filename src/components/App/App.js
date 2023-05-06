@@ -2,7 +2,6 @@ import Statistics from '../Statistics';
 import Section from 'components/Section';
 import Notification from 'components/Statistics/Notification';
 
-// import FeedbackOptions from 'components/Statistics/FeedbackOptions';
 import './App.css';
 
 export default function App() {
@@ -17,7 +16,6 @@ export default function App() {
           positivePercentage={0}
         />
         <Notification message="There is no feedback" />
-        {/* <FeedbackOptions options={} onLeaveFeedback={}></FeedbackOptions> */}
       </Section>
     </div>
   );
