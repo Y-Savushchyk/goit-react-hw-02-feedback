@@ -8,20 +8,18 @@
 }
 .Stat__feedback > button {
   border: none;
-  padding: 10px 15px;
-  color: black;
+  padding: 5px 30px;
+  color: white;
   font-weight: 600;
   margin-left: 8px;
   margin-right: 8px;
-  font-family: inherit;
   font-size: 24px;
-  cursor: pointer;
-  outline: none;
   border-radius: 5px;
+  background-color: blue;
 }
 
 .Stat__feedback > button:active {
-  box-shadow: 2px 5px 2px 2px rgb(0 0 0/0.5);
+  box-shadow: 2px 5px 2px 2px rgb(0 0 0/0.1);
 }
 
 .Statistic__wrap {
