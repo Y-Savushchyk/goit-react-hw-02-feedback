@@ -1,6 +1,11 @@
+import React from "react";
+import FeedbackCounter from './Feedback Counter/FeedbackCounter'
+import css from './App.module.css'
+
 export const App = () => {
   return (
     <div
+      className={css.container}
       style={{
         height: '100vh',
         display: 'flex',
@@ -10,8 +15,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      <p>Please leave feedback</p>
-      <p>Statistics</p>
+      <FeedbackCounter/>
     </div>
   );
 };
