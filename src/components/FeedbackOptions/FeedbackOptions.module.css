@@ -1,6 +1,4 @@
 .list {
-  background-color: #fff;
-  border: 2px dotted #2196f3;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -8,14 +6,15 @@
 }
 
 .item {
-  padding: 20px;
+  padding: 35px;
 }
 
 .btn {
-  border: 1px solid #2196f3;
-  font-size: 15px;
-  color: #2196f3;
-  width: 120px;
-  height: 30px;
-  border-radius: 7px;
+  font-size: 25px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
 }
